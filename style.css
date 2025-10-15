@@ -1,0 +1,168 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.navlinks a {
+  margin: 8px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+section {
+  display: flex;
+  margin-top: 64px;
+}
+
+.left {
+  width: 488px;
+  height: 403px;
+  margin-right: 70px;
+}
+
+.right h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom:25px ;
+}
+
+.right p {
+  font-size: 18px;
+  margin-top: 16px;
+}
+
+.right div{
+  background-color: #AFDCEB;
+  border-radius: 15px;
+  padding: 20px 20px 50px 20px;
+}
+
+img {
+  width: 488px;
+  height: 403px;
+  border-radius: 16px;
+  padding: 5px;
+}
+
+.mid{
+  padding: 20px 20px 20px 20px;
+  margin-top: 20px;
+}
+.mid h3{
+
+background-color: #AFDCEB;
+border-radius: 5px;
+font-size: 18px;
+font-weight: lighter;
+margin-bottom: 20px;
+
+
+}
+.mid ul{
+  margin-left: 20px;
+  margin-top: 5px;
+padding: 5px 5px 5px 5px;
+gap: 10px;
+font-size: 16px;
+
+}
+
+.midright{
+  margin-left: 180px;
+}
+
+.midleft h3{
+  margin-right: 280px;
+
+}
+.midright h3{
+  margin-right: 280px;
+  
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #0a0a8e;
+  color: #ffffff;
+  width: 40%;
+  height: 80%;
+  margin-left: 20px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+
+}
+
+.last input{
+  background-color: skyblue;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  font-size: small;
+  padding: 4px;
+  gap: 10px;
+}
+
+
+
+/* .input .message{
+  height: 20px;
+} */
+
+.last button{
+  background-color: rgb(74, 96, 205);
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+label{
+  font-weight: bold;
+}
+#message{
+  background-color: skyblue;
+  border-radius: 4px;
+
+ 
+}
+
+footer{
+  text-align: center;
+  background-color: skyblue;
+  color:rgb(53, 7, 7);
+  font-weight: bold;
+  margin-top: 30px;
+  width: 100vw;
+  padding-top: 5px;
+  padding-right: 60px;
+}
+
