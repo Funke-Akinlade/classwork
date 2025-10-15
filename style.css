@@ -46,7 +46,7 @@ section {
 .right h1 {
   font-size: 40px;
   font-weight: bold;
-  margin-bottom:25px ;
+  margin-bottom: 25px;
 }
 
 .right p {
@@ -54,7 +54,7 @@ section {
   margin-top: 16px;
 }
 
-.right div{
+.right div {
   background-color: #AFDCEB;
   border-radius: 15px;
   padding: 20px 20px 50px 20px;
@@ -67,40 +67,43 @@ img {
   padding: 5px;
 }
 
-.mid{
+.mid {
   padding: 20px 20px 20px 20px;
   margin-top: 20px;
 }
-.mid h3{
 
-background-color: #AFDCEB;
-border-radius: 5px;
-font-size: 18px;
-font-weight: lighter;
-margin-bottom: 20px;
+.mid h3 {
+
+  background-color: #AFDCEB;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 20px;
 
 
 }
-.mid ul{
+
+.mid ul {
   margin-left: 20px;
   margin-top: 5px;
-padding: 5px 5px 5px 5px;
-gap: 10px;
-font-size: 16px;
+  padding: 5px 5px 5px 5px;
+  gap: 10px;
+  font-size: 16px;
 
 }
 
-.midright{
+.midright {
   margin-left: 180px;
 }
 
-.midleft h3{
+.midleft h3 {
   margin-right: 280px;
 
 }
-.midright h3{
+
+.midright h3 {
   margin-right: 280px;
-  
+
 }
 
 .last {
@@ -117,23 +120,20 @@ font-size: 16px;
 
 }
 
-.last input{
+.last input {
   background-color: skyblue;
   border: none;
   border-radius: 4px;
   width: 100%;
   font-size: small;
   padding: 4px;
-  gap: 10px;
 }
 
-
-
-/* .input .message{
+.input .message {
   height: 20px;
-} */
+}
 
-.last button{
+.last button {
   background-color: rgb(74, 96, 205);
   color: #ffffff;
   border-radius: 4px;
@@ -141,28 +141,34 @@ font-size: 16px;
   cursor: pointer;
   padding-top: 4px;
   padding-bottom: 4px;
-  width: 100%;
-  margin-top: 10px;
 }
 
-label{
+/* label {
   font-weight: bold;
-}
-#message{
+} */
+
+#message {
   background-color: skyblue;
   border-radius: 4px;
-
- 
+@media only screen {max-width: 360px;
+body{
+font-size: 14px;
+}
+.last{
+width: 90%;
+margin:0 auto;
+}
 }
 
-footer{
+}
+
+footer {
   text-align: center;
   background-color: skyblue;
-  color:rgb(53, 7, 7);
+  color: rgb(53, 7, 7);
   font-weight: bold;
   margin-top: 30px;
   width: 100vw;
   padding-top: 5px;
   padding-right: 60px;
 }
-
