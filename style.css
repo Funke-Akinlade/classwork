@@ -150,16 +150,6 @@ img {
 #message {
   background-color: skyblue;
   border-radius: 4px;
-@media only screen {max-width: 360px;
-body{
-font-size: 14px;
-}
-.last{
-width: 90%;
-margin:0 auto;
-}
-}
-
 }
 
 footer {
